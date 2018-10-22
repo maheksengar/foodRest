@@ -1,0 +1,148 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Mali', sans-serif;
+}
+
+/*.main-bg {
+	background-image: url(cooking-ingredients.jpg);
+	background-size: contain;
+	border: 1px solid;
+	padding-bottom: 10vh;
+	/*height: 100vh;
+}*/
+
+/*.logo-container {
+	padding: 12vh 3vw;
+}
+
+
+.logo {
+	background-color: rgba(255,0,0, 1.0);
+	color: white;
+	font-weight: bolder;
+	width: 15vw;
+	height: 20vh;
+	font-size: 2.5rem;
+}
+
+.user {
+	background-color: white;
+	padding: 1vh 1vw;
+	margin-top: 4vh;
+	margin-right: 4vw;
+	margin-bottom: 2vh;
+	
+}*/
+.location {
+	background-color: white;
+	padding: 1vh 1vw;
+}
+.search-box{
+	width: 40vw !important;
+}
+#navbar {
+	height: 7vw;
+	padding: 3vh 2vw;
+	position: sticky !important;
+	z-index: 99999;
+	background-color: #800000;
+}
+.navbar-brand {
+	color: #009999 !important;
+	font-size: 2rem !important;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-variant: small-caps;
+}
+.nav-link {
+	color: #009999 !important;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-variant: small-caps;
+}
+.nav-link:hover {
+	color: #00ffff !important;
+}
+#order-btn {
+	background-color: #009999 !important;
+	color: #800000;
+	border-color:  #009999 !important;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-variant: small-caps;
+}
+#order-btn:hover {
+	background-color: transparent !important;
+	color: #009999 !important;
+}
+.location{
+	background-color: black;
+	color: white;
+	background-attachment: fixed;
+}
+.card {
+	color: black !important;
+}
+.menu-accordion {
+	background-color: black !important;
+	color: white !important;
+	border-bottom: 1px solid white !important;
+	text-align: center;
+	width: 65vw !important;
+}
+.accordion-link {
+	color: white !important;
+	font-size: 1.5rem !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+.accordion-link:hover {
+	color: #dddddd !important;
+	font-size: 1.7rem !important;
+}
+
+.blog-bg {
+	background-image: url(menu-bg-img.webp);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 75vh;
+}
+.heading {
+	text-align: center;
+	padding-top: 20vh !important;
+	margin-bottom:17vh !important;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	font-family: 'Mali',  cursive;
+	font-size: 4rem;
+}
+.feedback-bg {
+	background-color: #999966;
+	color: white;
+}
+.form-control {
+	 background-color: transparent !important;
+	 border:2px solid white !important;
+	 color: white !important;
+
+}
+.form-control:focus {
+	 background-color: white !important;
+	 color: black !important;
+	 
+}
+footer {
+	background-color: black;
+	color: white;
+}
+.flex-up>h5 {
+	font-size: 1.4rem !important;
+	text-transform: uppercase;
+}
+.flex-up>a {
+	color: white !important;
+	font-size: 1rem;
+	font-weight: lighter;
+	letter-spacing: 2px; 
+}
